@@ -22,7 +22,7 @@ var users = [];
 var db = null;
 
 // connect to the database
-mongo.connect(process.env.MONGODB_URI || 'mongodb://localhost:27017/ionic-video-chat', (err, d) => {
+mongo.connect(process.env.MONGODB_URI || 'mongodb://heroku_5t9lbv6g:g88di54vbrog84auga1lu8at09@ds159662.mlab.com:59662/heroku_5t9lbv6g', (err, d) => {
 	if (err) {
 		return console.log(err);
 	}
