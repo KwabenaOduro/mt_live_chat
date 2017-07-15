@@ -9,7 +9,7 @@ angular.module('VideoChatApp.services')
         //http://127.0.0.1:8080
         //var socket = io.connect('http://127.0.0.1:9000/');
         //var socket = io();  
-        var socket = io.connect('https://mlivechat.herokuapp.com/');
+        var socket = io.connect('https://mtlivechat.herokuapp.com/');
 		var socketFactory = socketFactory({
 			ioSocket: socket
 		});
