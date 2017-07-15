@@ -1,0 +1,8 @@
+{
+  "name": "ionic-video-chat",
+  "app_id": "",
+  "type": "ionic1",
+  "watchPatterns": [
+    "scss/**/*"
+  ]
+}
